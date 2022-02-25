@@ -1,0 +1,382 @@
+
+/*--------------------------------------------------------------
+# custom 
+--------------------------------------------------------------*/
+@import "responsive.css";
+/*@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");*/
+@font-face {
+  font-family: 'HKGrotesk-Black';
+  src: url("../fonts/HKGrotesk-Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-Bold';
+  src: url("../fonts/HKGrotesk-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-BoldItalic';
+  src: url("../fonts/HKGrotesk-BoldItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-BoldLegacy';
+  src: url("../fonts/HKGrotesk-BoldLegacy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-BoldLegacy';
+  src: url("../fonts/HKGrotesk-BoldLegacy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-ExtraBold';
+  src: url("../fonts/HKGrotesk-ExtraBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-Italic';
+  src: url("../fonts/HKGrotesk-Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-LegacyItalic';
+  src: url("../fonts/HKGrotesk-LegacyItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-Light';
+  src: url("../fonts/HKGrotesk-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-LightItalic';
+  src: url("../fonts/HKGrotesk-LightItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-LightLegacy';
+  src: url("../font/HKGrotesk-LightLegacy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-LightLegacyItalic';
+  src: url("../font/HKGrotesk-LightLegacyItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-Medium';
+  src: url("../fonts/HKGrotesk-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-MediumItalic';
+  src: url("../fonts/HKGrotesk-MediumItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-MediumLegacy';
+  src: url("../fonts/HKGrotesk-MediumLegacy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-MediumLegacyItalic';
+  src: url("../fonts/HKGrotesk-MediumLegacyItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-Regular';
+  src: url("../fonts/HKGrotesk-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-RegularLegacy';
+  src: url("../fonts/HKGrotesk-RegularLegacy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-SemiBold';
+  src: url("../font/HKGrotesk-SemiBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-SemiBoldItalic';
+  src: url("../fonts/HKGrotesk-SemiBoldItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-SemiBoldLegacy';
+  src: url("../fonts/HKGrotesk-SemiBoldLegacy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk-SemiBoldLegacyItalic';
+  src: url("../fonts/HKGrotesk-SemiBoldLegacyItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* layout */
+.container{
+  max-width: 100%!important;
+  padding: 0 100px!important;
+}
+/* intros */
+
+
+.intro h4 {
+  font-family: 'HKGrotesk-Regular';
+  color: #686b7b;
+  /* font-size: 14px; */
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.thm-heading{
+  font-family: 'HKGrotesk-Bold';
+  font-size: 36px;
+  color: #202647;
+}
+img.intro-about{
+  max-width: 464px;
+  width: 100%;
+}
+img.intro-about2{
+  max-width: 510px;
+  width: 100%;
+}
+.intro .img-fluid{
+  /* max-width: 113%; */
+  max-width: 100%;
+  margin-top: -114px;
+}
+/* intros END*/
+/* button */
+.main-btn {
+  border: 1px solid #462769;
+  color: #fff!important;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 15px 20px;
+  border-radius: 2px !important;
+  font-family: 'HKGrotesk-Regular';
+}
+
+.main-btn-signup {
+  border: 1px solid #462769;
+  color: #462769!important;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 2px !important;
+  font-family: 'HKGrotesk-Regular';
+  background: #fff;
+}
+.main-btn-signup:hover{
+  background: #1469d9;
+  border-color: #1469d9;
+  color: #fff;
+}
+
+.outline-btn{
+  border: 1px solid #1469d9;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 2px !important;
+  color: #000000;
+}
+.outline-btn:hover{
+  background: #1469d9;
+  border-color: #1469d9;
+  color: #fff;
+}
+.outline-btn.sm-btn{
+  padding: 8px 10px!important;
+  font-size: 13px!important;
+  font-family: 'HKGrotesk-Regular';
+}
+
+
+
+section{
+  overflow: hidden!important;
+}
+.rating .checked {
+  color: #FFD200;;
+}
+.product-type{
+    padding-left: 15px;
+}
+.product-type :first-child .top-banner{
+    width: 100%;
+    position: relative;
+    margin-top: -1px;
+    font-size: 12px;
+    background-color: #DE742D;
+    color: #fff
+    
+}
+
+
+.product-type :nth-child(2) .top-banner{
+    width: 100%;
+    position: relative;
+    margin-top: -8px;
+    font-size: 12px;
+    background-color: #A07EDC;
+    color: #fff
+    
+}
+
+.color-box-product{ 
+  border: 1px solid #D8E0E2;
+  box-sizing: border-box;
+  border-radius: 6px;
+    min-width: 150px;
+    max-width: 150px;
+    margin-right: 10px;
+     margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden
+        
+}
+.active-now{
+    border: 2px solid #000;
+   
+}
+.active-now span{
+   font-weight: 600
+   
+}
+
+.color-box-product .text{
+       padding: 10px 10px 10px 10px;
+}
+.product-type :nth-child(2) .text{
+       padding: 6px 10px 10px 10px;
+}
+.quantity button{
+    background: #EDF1F2;
+    border-radius: 4px;
+    margin: 5px;
+    font-size:15px;
+    font-weight: 400;
+}
+.quantity input[type=text]{
+    padding: 0;
+    margin: 5px;
+    border: none;
+    max-width: 25px;
+}
+.quantity input[type=text]:focus {
+
+    border: none;
+    box-shadow: none;
+  
+}
+.buying-option-container >* {
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.buying-option-container {
+    margin-top: 10px  
+}
+.buying-option-container >* label b {
+    color: #000;
+    font-weight: 600;
+}
+.buying-option-container input[type="radio"]{
+    margin-top: 10px;
+    
+}
+.buying-option-container input[type="radio"]:checked,
+.buying-option-container input[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.buying-option-container input[type="radio"]:checked + label,
+.buying-option-container input[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.buying-option-container input[type="radio"]:checked + label:before,
+.buying-option-container input[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+.buying-option-container input[type="radio"]:checked + label:after,
+.buying-option-container input[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #00BA74;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border: 2px solid #00BA74 !important;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.buying-option-container input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.buying-option-container input[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.btn-cart{
+    border-radius: 3px;
+    width: 100%;
+    height: 55px;
+    color: #fff;
+}
+.feature-list ul {
+  list-style-image: url("../img/tick.svg");
+    margin-top: 2px;
+}

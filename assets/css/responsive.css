@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1400px){
+  #intro{
+    padding: 145px 0 70px 0;
+  }
+  #about {
+    padding: 0px 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1400px){
+  .intro .img-fluid{
+    margin-top: -7%!important;
+  }
+}
+@media only screen and (min-width: 992px){
+  header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 100px!important;
+  }
+  .main-nav{
+    padding-left: 48px;
+    margin-top: 4px;
+  }
+}
+@media only screen and (max-width: 768px){
+  #intro .intro-info .btn-get-started, #intro .intro-info .btn-services, .outline-btn{
+    width: 100%;
+  }
+  .thm-heading,.thm-paragraph,#about .about-extra h4{
+    text-align: center;
+  }
+  .about-left,.about-right{
+    align-items: center;
+  }
+  #colleges .owl-carousel{
+    padding: 50px;
+  }
+  .universities-scroll .owl-nav{
+    display: none!important;
+  }
+  body .universities-scroll .owl-dots,.client-section .owl-dots{
+    display: block!important;
+    bottom: 10px!important;
+    left: 5px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 590px){
+  .client-section .owl-carousel.owl-drag .owl-item{
+    display: flex;
+    justify-content: center;
+  }
+}
+
